@@ -213,6 +213,11 @@ void polyDerive() {
     std::cout << newArray[i] << "x + ";
     i++;
     std::cout << newArray[i] << "\n";
+
+    //changing the array for the derivation
+    newArray[0] = newArray[0] * 3
+    newArray[1] = newArray[1] * 2
+
     //prints the derivative of the array
     std::cout << "The derivative of the polynomialfunction is: \n";
     for (i = 0; i < 1; i++) {
